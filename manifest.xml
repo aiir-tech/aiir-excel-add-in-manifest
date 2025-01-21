@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0" xmlns:ov="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="TaskPaneApp">
   <Id>bc13da24-2c32-443e-af73-9c3405d05733</Id>
-  <Version>1.0.0.1</Version>
+  <Version>1.0.0.2</Version>
   <ProviderName>Aiir Technologies Ltd</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="Aiir for Excel"/>
@@ -103,7 +103,7 @@
         <bt:String id="Functions.Namespace" DefaultValue="AIIR"/>  
       </bt:ShortStrings>
       <bt:LongStrings>
-        <bt:String id="GetStarted.Description" DefaultValue="Aiir for Excel has loaded succesfully. Go to the HOME tab and click the 'Aiir for Word' button to get started."/>
+        <bt:String id="GetStarted.Description" DefaultValue="Aiir for Excel has loaded succesfully. Go to the HOME tab and click the 'Aiir for Excel' button to get started."/>
         <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Click to Open Aiir for Excel"/>
       </bt:LongStrings>
     </Resources>
