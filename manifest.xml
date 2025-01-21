@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.0.0.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0" xmlns:ov="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="TaskPaneApp">
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.0.0.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0" xmlns:ov="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="TaskPaneApp">
   <Id>bc13da24-2c32-443e-af73-9c3405d05733</Id>
-  <Version>1.0.0.3</Version>
+  <Version>1.0.0.4</Version>
   <ProviderName>Aiir Technologies Ltd</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="Aiir for Excel"/>
-  <Description DefaultValue="Microsoft Excel Add-In for the aiir platform."/>
+  <Description DefaultValue="Microsoft Excel Add-In for the Aiir platform."/>
   <IconUrl DefaultValue="https://green-pebble-038a1a103.5.azurestaticapps.net/assets/aiir-icon-128.png"/>
   <HighResolutionIconUrl DefaultValue="https://green-pebble-038a1a103.5.azurestaticapps.net/assets/aiir-icon-128.png"/>
   <SupportUrl DefaultValue="https://useaiir.com/help"/>
