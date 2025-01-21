@@ -107,5 +107,16 @@
         <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Click to Show a Taskpane"/>
       </bt:LongStrings>
     </Resources>
+    <WebApplicationInfo>
+      <Id>02815405-9448-4bd5-97fb-de18912384ef</Id>
+      <Resource>api://green-pebble-038a1a103.5.azurestaticapps.net/02815405-9448-4bd5-97fb-de18912384ef</Resource>
+      <Scopes>
+        <Scope>email</Scope>
+        <Scope>openid</Scope>
+        <Scope>profile</Scope>
+        <Scope>offline_access</Scope>
+        <Scope>User.Read</Scope>
+      </Scopes>
+    </WebApplicationInfo>
   </VersionOverrides>
 </OfficeApp>
