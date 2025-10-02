@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0" xmlns:ov="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="TaskPaneApp">
-  <Id>bc13da24-2c32-443e-af73-9c3405d05733</Id>
-  <Version>1.0.0.5</Version>
+  <Id>d2742064-8bad-4f32-b517-6b33e4b04e62</Id>
+  <Version>1.0.0.6</Version>
   <ProviderName>Aiir Technologies Ltd</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
-  <DisplayName DefaultValue="Aiir for Excel"/>
-  <Description DefaultValue="Microsoft Excel Add-In for the Aiir platform."/>
-  <IconUrl DefaultValue="https://green-pebble-038a1a103.5.azurestaticapps.net/assets/aiir-icon-128.png"/>
-  <HighResolutionIconUrl DefaultValue="https://green-pebble-038a1a103.5.azurestaticapps.net/assets/aiir-icon-128.png"/>
-  <SupportUrl DefaultValue="https://useaiir.com/help"/>
+  <DisplayName DefaultValue="Aiir for Excel (Staging)"/>
+  <Description DefaultValue="Microsoft Excel Add-In for the Aiir platform (Staging)."/>
+  <IconUrl DefaultValue="https://aiir-excel-add-in.vercel.app/assets/aiir-icon-128.png"/>
+  <HighResolutionIconUrl DefaultValue="https://aiir-excel-add-in.vercel.app/assets/aiir-icon-128.png"/>
+  <SupportUrl DefaultValue="https://www.useaiir.com/help"/>
   <AppDomains>
-    <AppDomain>https://useaiir.com</AppDomain>
+    <AppDomain>https://aiir-excel-add-in.vercel.app</AppDomain>
   </AppDomains>
   <Hosts>
     <Host Name="Workbook"/>
@@ -21,7 +21,7 @@
     </Sets>
   </Requirements>
   <DefaultSettings>
-    <SourceLocation DefaultValue="https://green-pebble-038a1a103.5.azurestaticapps.net/index.html"/>
+    <SourceLocation DefaultValue="https://aiir-excel-add-in.vercel.app/index.html"/>
   </DefaultSettings>
   <Permissions>ReadWriteDocument</Permissions>
   <VersionOverrides xmlns="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="VersionOverridesV1_0">
@@ -84,32 +84,32 @@
     </Hosts>
     <Resources>
       <bt:Images>
-        <bt:Image id="Icon.16x16" DefaultValue="https://green-pebble-038a1a103.5.azurestaticapps.net/assets/aiir-icon-128.png"/>
-        <bt:Image id="Icon.32x32" DefaultValue="https://green-pebble-038a1a103.5.azurestaticapps.net/assets/aiir-icon-128.png"/>
-        <bt:Image id="Icon.80x80" DefaultValue="https://green-pebble-038a1a103.5.azurestaticapps.net/assets/aiir-icon-128.png"/>
+        <bt:Image id="Icon.16x16" DefaultValue="https://aiir-excel-add-in.vercel.app/assets/aiir-icon-128.png"/>
+        <bt:Image id="Icon.32x32" DefaultValue="https://aiir-excel-add-in.vercel.app/assets/aiir-icon-128.png"/>
+        <bt:Image id="Icon.80x80" DefaultValue="https://aiir-excel-add-in.vercel.app/assets/aiir-icon-128.png"/>
       </bt:Images>
       <bt:Urls>
         <bt:Url id="GetStarted.LearnMoreUrl" DefaultValue="https://go.microsoft.com/fwlink/?LinkId=276812"/>
-        <bt:Url id="Taskpane.Url" DefaultValue="https://green-pebble-038a1a103.5.azurestaticapps.net/index.html"/>
-        <bt:Url id="Commands.Url" DefaultValue="https://green-pebble-038a1a103.5.azurestaticapps.net/index.html"/>
-        <bt:Url id="Functions.Page.Url" DefaultValue="https://green-pebble-038a1a103.5.azurestaticapps.net/index.html"/>
-        <bt:Url id="Functions.Script.Url" DefaultValue="https://green-pebble-038a1a103.5.azurestaticapps.net/functions.js"/>
-        <bt:Url id="Functions.Metadata.Url" DefaultValue="https://green-pebble-038a1a103.5.azurestaticapps.net/functions.json"/>
+        <bt:Url id="Commands.Url" DefaultValue="https://aiir-excel-add-in.vercel.app/commands.html"/>
+        <bt:Url id="Taskpane.Url" DefaultValue="https://aiir-excel-add-in.vercel.app/index.html"/>
+        <bt:Url id="Functions.Page.Url" DefaultValue="https://aiir-excel-add-in.vercel.app/index.html"/>
+        <bt:Url id="Functions.Script.Url" DefaultValue="https://aiir-excel-add-in.vercel.app/functions.js"/>
+        <bt:Url id="Functions.Metadata.Url" DefaultValue="https://aiir-excel-add-in.vercel.app/functions.json"/>
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="GetStarted.Title" DefaultValue="Get started with Aiir for Excel!"/>
-        <bt:String id="CommandsGroup.Label" DefaultValue="useaiir.com"/>
-        <bt:String id="TaskpaneButton.Label" DefaultValue="Aiir for Excel"/>
-        <bt:String id="Functions.Namespace" DefaultValue="AIIR"/>  
+        <bt:String id="CommandsGroup.Label" DefaultValue="Commands Group"/>
+        <bt:String id="TaskpaneButton.Label" DefaultValue="Aiir for Excel (Staging)"/>
+        <bt:String id="Functions.Namespace" DefaultValue="AIIR_STAGING"/>
       </bt:ShortStrings>
       <bt:LongStrings>
         <bt:String id="GetStarted.Description" DefaultValue="Aiir for Excel has loaded succesfully. Go to the HOME tab and click the 'Aiir for Excel' button to get started."/>
-        <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Click to Open Aiir for Excel"/>
+        <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Click to open Aiir for Excel"/>
       </bt:LongStrings>
     </Resources>
     <WebApplicationInfo>
-      <Id>02815405-9448-4bd5-97fb-de18912384ef</Id>
-      <Resource>api://green-pebble-038a1a103.5.azurestaticapps.net/02815405-9448-4bd5-97fb-de18912384ef</Resource>
+      <Id>d2742064-8bad-4f32-b517-6b33e4b04e62</Id>
+      <Resource>api://aiir-excel-add-in.vercel.app/d2742064-8bad-4f32-b517-6b33e4b04e62</Resource>
       <Scopes>
         <Scope>email</Scope>
         <Scope>openid</Scope>
